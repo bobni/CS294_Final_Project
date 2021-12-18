@@ -1,4 +1,4 @@
-# CS294-082 Final Project: Estimating the complexity of CIFAR-10 and training a compact and accurate mode
+# CS294-082 Final Project: Estimating the complexity of CIFAR-10 and training a compact and accurate model
 ### *By Philipp Hohlfeld, Stefan Bielmeier, and Bob Ni*
 
 ## Contents and Descriptions
