@@ -36,3 +36,14 @@ The purpose of this repository is to serve as the supporting documentation for r
 - Training script with parameters described in the paper
 - Scoring accuracy across training, test, and validation sets
 - Exporting the output of the convolutional layer to a CSV to be analyzed by nntailoring
+
+*CS294_neural_networks_CIFAR10.ipynb*: This is the notebook contains the work to build the neural network on the entire CIFAR10 dataset with 10 classes; this contains:
+- Splitting training, test, and validation sets
+- Training the model across a range of numbers of neurons
+- Running the code for 100 epochs
+- Examples of hyperparameter tuning
+
+### Utilities
+
+This contains the code used to compress the images into JPEG Q20 grayscale, specifically in the script "dataset_to_csv.py"
+
