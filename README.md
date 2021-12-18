@@ -1,5 +1,4 @@
-# CS294-082 Final Project 
-# Estimating the complexity of CIFAR-10 and training a compact and accurate mode
+# CS294-082 Final Project: Estimating the complexity of CIFAR-10 and training a compact and accurate mode
 ### *By Philipp Hohlfeld, Stefan Bielmeier, and Bob Ni*
 
 ## Contents and Descriptions
@@ -14,13 +13,16 @@ gray_cat_dog_q_20_test.zip: Contains the training set used for most of the paper
 
 gray_cat_dog_q_20_test.zip: Contains the test set used for most of the paper; this is a subset of CIFAR10 corresponding to all of the dog and cat images in the test set; we also apply JPEG compression (Q20) and grayscaling.
 
+
+### Scripts
+
 **Found in the src/ foulder:**
 
 nntailoring-binary.py: This is an adapted form of the nntailoring repo's capacityreq.py file, and has the same purpose of producing the number of thresholds, MEC, and max capacity requirements for a binary class set. 
 
 nntailoring-multi.py: This is an adapted form of the nntailoring repo's capacityreq.py file, and has the same purpose of producing the number of thresholds, MEC, and max capacity requirements for a multi-class set. 
 
-CS_294_–CIFAR_10_–_2_class_to_memorization.ipynb: This is the notebooke used to generate the model trained to 100% memorization, using the data found in the data folder. This script includes:
+CIFAR10 2 class to memorization.ipynb: This is the notebooke used to generate the model trained to 100% memorization, using the data found in the data folder. This script includes:
 - Compression and normalization of data 
 - Splitting training, test, and validation sets
 - Training the model across 13 neurons
